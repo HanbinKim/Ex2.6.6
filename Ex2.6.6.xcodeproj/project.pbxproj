@@ -21,6 +21,7 @@
 		00DE9738187FD5B200488428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DE971A187FD5B200488428 /* UIKit.framework */; };
 		00DE9740187FD5B200488428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00DE973E187FD5B200488428 /* InfoPlist.strings */; };
 		00DE9742187FD5B200488428 /* Ex2_6_6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DE9741187FD5B200488428 /* Ex2_6_6Tests.m */; };
+		00DE9750187FDA5100488428 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DE974F187FDA5100488428 /* DetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00DE973D187FD5B200488428 /* Ex2.6.6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex2.6.6Tests-Info.plist"; sourceTree = "<group>"; };
 		00DE973F187FD5B200488428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00DE9741187FD5B200488428 /* Ex2_6_6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex2_6_6Tests.m; sourceTree = "<group>"; };
+		00DE974E187FDA5100488428 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		00DE974F187FDA5100488428 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		00DE971C187FD5B200488428 /* Ex2.6.6 */ = {
 			isa = PBXGroup;
 			children = (
+				00DE974E187FDA5100488428 /* DetailVC.h */,
+				00DE974F187FDA5100488428 /* DetailVC.m */,
 				00DE9725187FD5B200488428 /* AppDelegate.h */,
 				00DE9726187FD5B200488428 /* AppDelegate.m */,
 				00DE9728187FD5B200488428 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DE972D187FD5B200488428 /* ViewController.m in Sources */,
+				00DE9750187FDA5100488428 /* DetailVC.m in Sources */,
 				00DE9727187FD5B200488428 /* AppDelegate.m in Sources */,
 				00DE9723187FD5B200488428 /* main.m in Sources */,
 			);
